@@ -1,0 +1,8 @@
+Aswin\DDD\Domain\Model\User:
+  type: entity
+  table: User
+  embedded:
+      UserIdentity:
+          class: Aswin\DDD\Domain\ValueObject\UserIdentity
+      name:
+          class: Aswin\DDD\Domain\ValueObject\Name

@@ -1,0 +1,9 @@
+Aswin\DDD\Domain\ValueObject\Name:
+    type: embeddable
+    fields:
+        firstName:
+            type: string
+            length: 255
+        lastName:
+            type: string
+            length: 255

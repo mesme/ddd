@@ -1,0 +1,6 @@
+Aswin\DDD\Domain\ValueObject\UserIdentity:
+    type: embeddable
+    id:
+        id:
+            type: string
+            length: 13
